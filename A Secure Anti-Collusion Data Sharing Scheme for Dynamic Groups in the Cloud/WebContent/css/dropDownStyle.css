@@ -1,0 +1,25 @@
+.dropdown-content {
+	display: none;
+	position: absolute;
+	font-style: timesnewroman;
+	background-color: ORANGE;
+	text-decoration: none;
+	text-shadow: #CC0033;
+	min-width: 250px;
+	box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.2);
+	min-width: 160px;
+	text-shadow: #CC0033;
+}
+
+.dropdown-content a:hover {
+	background-color: #D1D1D1;
+}
+
+.show {
+	display: table;
+}
+
+ul li.current a,ul li:hover a {
+	color: #2F291D;
+	text-shadow: 0px 1px 0px #FFF;
+}
